@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "518393266502",
+    "firebase_url": "https://split-manager.firebaseio.com",
+    "project_id": "split-manager",
+    "storage_bucket": "split-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518393266502:android:8f35a08c2c78df9c14a547",
+        "android_client_info": {
+          "package_name": "com.example.splitmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518393266502-20cjh9vln0k1j58nptt1tkl45tt82tns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.splitmanager",
+            "certificate_hash": "b97c386b724329909fb641da6a9857a1c995741d"
+          }
+        },
+        {
+          "client_id": "518393266502-9ulr7iqh19v03vq6q3ke4lildi596ing.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS5PQ5rtV24IGMGhNydAoXvbRfRRw-KZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518393266502-9ulr7iqh19v03vq6q3ke4lildi596ing.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFA500"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    tools:context=".ShowUserDetailsell">
+
+
+    <TextView
+        android:id="@+id/totalselldetail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        />
+  <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="30dp">
+    <TableRow>
+    <TextView
+        android:text="INVOICE"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_weight="40" />
+    <TextView
+        android:text="AMOUNT"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_weight="60" />
+    </TableRow>
+  </TableLayout>
+
+  <ListView
+      android:id="@+id/listselldetail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:dividerHeight="5dp" />
+</LinearLayout>
